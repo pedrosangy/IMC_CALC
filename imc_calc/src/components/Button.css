@@ -1,0 +1,40 @@
+button {
+    background-color: #4CAF50;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Sem sublinhado */
+    display: inline-block;
+    /* Para permitir margens e largura */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    margin: 4px 2px;
+    /* Margens externas */
+    cursor: pointer;
+    /* Mão ao passar o mouse */
+    border: none;
+    /* Sem borda */
+    border-radius: 4px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.2s;
+    /* Transições suaves */
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta ligeiramente o botão */
+}
+
+button:active {
+    background-color: #3e8e41;
+    /* Cor de fundo ao clicar */
+    transform: scale(0.95);
+    /* Diminui o botão ao clicar */
+}
